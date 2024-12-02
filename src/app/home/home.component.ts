@@ -23,7 +23,7 @@ import { NgFor } from "@angular/common";
         </section>
         <hr>        
         <app-child (addItemEvent)="addItem($event)" />
-        <p> 🐢 All the way down {{ items.length }} </p>
+        <p> 🐢 All the way down counting... {{ items.length }} </p>
         <hr>
         <p> {{ carService.getCars() }} </p>
         <div class="container">     
